@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="106" viewBox="0 0 106 106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #c8daea;
+      }
+
+      .cls-4 {
+        fill: #a9c9dd;
+      }
+
+      .cls-5 {
+        fill: #7159c1;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-1" width="106" height="106" rx="10" transform="translate(0.02 -0.267)"/>
+    </clipPath>
+  </defs>
+  <g id="telegram" class="cls-2" transform="translate(-0.02 0.267)">
+    <g id="tl" transform="translate(0 0)">
+      <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-1" width="106" height="106" rx="10.2" transform="translate(0.02 -0.267)"/>
+      <path id="Path_4" data-name="Path 4" class="cls-3" d="M29.746,73.039c-2.272,0-2.065-.826-2.685-2.891L20.453,48.464l50.6-29.738" transform="translate(11.349 10.391)"/>
+      <path id="Path_5" data-name="Path 5" class="cls-4" d="M26.43,59.921c1.446,0,2.272-.826,3.3-1.652l9.293-8.88L27.462,42.367" transform="translate(14.666 23.51)"/>
+      <path id="Path_6" data-name="Path 6" class="cls-5" d="M37.507,57.122,65.385,77.567c2.891,1.859,5.369.826,6.2-2.891L82.939,21.4c1.033-4.543-1.859-6.608-4.956-5.163L11.693,41.84c-4.337,1.652-4.337,4.337-.826,5.369l17.14,5.369L67.244,27.591c1.859-1.033,3.511-.62,2.272.826" transform="translate(4.622 8.755)"/>
+    </g>
+  </g>
+</svg>

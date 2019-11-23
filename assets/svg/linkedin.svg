@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="106" viewBox="0 0 106 106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-4 {
+        fill: #7159c1;
+      }
+
+      .cls-4 {
+        stroke: #7159c1;
+        stroke-width: 8.766px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-1" width="106" height="106" rx="10" transform="translate(0 -0.267)"/>
+    </clipPath>
+  </defs>
+  <g id="linkedin" class="cls-2" transform="translate(0 0.267)">
+    <g id="linkedin-2" data-name="linkedin" transform="translate(0 0)">
+      <rect id="Rectangle_41" data-name="Rectangle 41" class="cls-1" width="106" height="106" rx="10.2" transform="translate(0 -0.267)"/>
+      <circle id="Ellipse_19" data-name="Ellipse 19" class="cls-3" cx="7.641" cy="7.641" r="7.641" transform="translate(21.684 20.858)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-4" d="M39.923,25.766V66.655M18.859,25.766V66.655" transform="translate(10.465 14.297)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-3" d="M36.656,44.233c0-4.13,2.685-8.26,7.434-8.26,4.956,0,6.815,3.717,6.815,9.293V66.949h13.63V43.614c0-12.6-6.608-18.379-15.695-18.379a13.55,13.55,0,0,0-12.184,6.608" transform="translate(20.341 14.003)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="106" viewBox="0 0 106 106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-4 {
+        fill: #7159c1;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1455" data-name="Rectangle 1455" class="cls-1" width="106" height="106" rx="10" transform="translate(0.02 -0.267)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_2336" data-name="Path 2336" class="cls-1" d="M10.2,0H95.8A10.2,10.2,0,0,1,106,10.2V95.8A10.2,10.2,0,0,1,95.8,106H10.2A10.2,10.2,0,0,1,0,95.8V10.2A10.2,10.2,0,0,1,10.2,0Z" transform="translate(0.02 -0.267)"/>
+    </clipPath>
+  </defs>
+  <g id="wpp" class="cls-2" transform="translate(-0.02 0.267)">
+    <g id="tl" transform="translate(0 0)">
+      <g id="Mask_Group_13" data-name="Mask Group 13" class="cls-3">
+        <g id="wpp-2" data-name="wpp" transform="translate(0.02 -0.267)">
+          <rect id="Rectangle_1456" data-name="Rectangle 1456" class="cls-1" width="106" height="106" rx="15.9"/>
+          <path id="Path_2337" data-name="Path 2337" class="cls-4" d="M63.766,56.52c-.621-.414-1.242-.621-1.863.207l-2.484,3.313a1.541,1.541,0,0,1-1.863.207c-3.105-1.656-7.453-3.52-11.18-9.73A1.565,1.565,0,0,1,47,48.859l1.863-2.9c.414-.414.207-.828,0-1.242l-2.484-6c-.621-1.656-1.242-1.449-1.863-1.449H42.855a3.146,3.146,0,0,0-2.07,1.035c-4.555,4.555-2.691,10.973.621,15.113A31.722,31.722,0,0,0,55.07,65.629c6.625,2.9,8.074,2.484,9.938,2.07a7.913,7.913,0,0,0,5.59-3.934c.207-.621,1.242-3.312.414-3.727"/>
+          <path id="Path_2338" data-name="Path 2338" class="cls-4" d="M54.656,79.5A28.3,28.3,0,0,1,39.75,74.945L29.605,77.637,32.09,67.7a29.6,29.6,0,0,1-4.141-14.492A27.435,27.435,0,0,1,55.277,25.879,25.892,25.892,0,0,1,81.363,52.172,27.311,27.311,0,0,1,54.656,79.5m-32.918,6,17.184-4.762A32.711,32.711,0,0,0,86.539,51.758a31.81,31.81,0,0,0-31.883-32.09A32.711,32.711,0,0,0,26.293,68.527"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

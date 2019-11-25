@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Angel Dev</title>
+  <link rel="icon" href="/assets/4975logo.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="svg-home"><img src="/assets/svg/shape-black.svg" alt=""></div>
   
-  <header id="header">
+  <header class="header" id="menu">
     <div class="topo">
       <div class="img-logo">
         <img src="assets/img/logo.png" alt="">
@@ -149,22 +150,21 @@
     <div class="portfolio">
     <div class="rollbar">
       <ul data-tab="menu">
-        <li><a href="#imagem1"><img src="assets/svg/rec-port.png" alt=""></a></li>
-        <li><a href="#imagem2"><img src="assets/svg/portfolio-card.png" alt=""></a></li>
-        <li><a href="#imagem3"><img src="assets/svg/portfolio-card.png" alt=""></a></li>
-        <li><a href="#imagem4"><img src="assets/svg/portfolio-card.png" alt=""></a></li>
-        <li><a href="#imagem5"><img src="assets/svg/portfolio-card2.png" alt=""></a></li>
+        <li><a href="#imagem1"><img src="assets/port/port-card-1.png" alt=""></a></li>
+        <li><a href="#imagem1"><img src="assets/port/port-card-2.png" alt=""></a></li>
+        <li><a href="#imagem1"><img src="assets/port/port-card-3.png" alt=""></a></li>
+       
         
 
       </ul>
     
     </div>
     <div class="portfolio-content" data-tab="content">
-      <div class="img-port"><img src="assets/svg/result-rec.png" alt=""></div>
-      <div class="img-port"><img src="assets/svg/contact-love.svg" alt=""></div>
-      <div class="img-port"><img src="assets/svg/result-rec.png" alt=""></div>
-      <div class="img-port"><img src="assets/svg/contact-love.svg" alt=""></div>
-      <div class="img-port"><img src="assets/svg/result-rec.png" alt=""></div>
+      <div class="img-port"><img src="assets/port/port-result-1.png" alt=""></div>
+      <div class="img-port"><img src="assets/port/port-result-2.png" alt=""></div>
+      <div class="img-port"><img src="assets/port/port-result-3.png" alt=""></div>
+     
+      
 
       
     </div>
@@ -180,15 +180,18 @@
       <div class="img-contato"><img src="assets/svg/dev-contact.svg" alt=""></div>
     </div>
 
+    <form action="mailto:angelosc1998@gmail.com" method="post">
+
     <div class="form">
       <div class="input-group">
-        <input type="text" name="nome" id="">
-        <input type="email" name="email" id="">
+        <input type="text" name="nome" id="" placeholder="nome">
+        <input type="email" name="email" id="" placeholder="email">
       </div>
-      <textarea name="menssege" id="" cols="30" rows="10" class="textarea"></textarea>
+      <textarea name="message" id="" cols="30" rows="10" class="textarea" placeholder="mensagem"></textarea>
       
     </div>
     <div class="button"><button type="submit" value="submit"> TENHO INTERESSE</button></div>
+  </form>
   </section>
   
   <footer class="footer">
@@ -208,24 +211,23 @@
     </div>
   </footer>
 
-  <div data-menu="list" id="menu">  
-      <button data-menu="fechar" class="fechar">X</button>
-      <ul class="lista">
-        <li><a href="#produto">Produto</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-      <div class="icons-menu">
-          <li class="rs"><a href="https://www.linkedin.com/in/angelo-cerqueira/"><img src="/assets/svg/linkedin.svg" target="_blank"  alt=""></a></li>
+  <div data-menu="list" >  
+    <button data-menu="fechar" class="fechar">X</button>
+    <ul class="lista">
+      <li><a href="#produto">Produto</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="icons-menu">
+      <li class="rs"><a href="https://www.linkedin.com/in/angelo-cerqueira/"><img src="/assets/svg/linkedin.svg" target="_blank"  alt=""></a></li>
 
-          <li class="rs"><a href="https://github.com/angelocerqueira" target="_blank"><img src="/assets/svg/github.svg" alt=""></a></li>
+      <li class="rs"><a href="https://github.com/angelocerqueira" target="_blank"><img src="/assets/svg/github.svg" alt=""></a></li>
 
-          <li class="rs"><a href="https://t.me/angelocerqueira" target="_blank"><img src="/assets/svg/telegram.svg" alt=""></a></li>
+      <li class="rs"><a href="https://t.me/angelocerqueira" target="_blank"><img src="/assets/svg/telegram.svg" alt=""></a></li>
 
-          <li class="rs"><a href="https://wa.me/65981463053" target="_blank"><img src="/assets/svg/wpp.svg" alt=""></a></li>
-
-        </div>
+      <li class="rs"><a href="https://wa.me/65981463053" target="_blank"><img src="/assets/svg/wpp.svg" alt=""></a></li>
     </div>
+  </div>
 
 <script type="module" src="/js/app.js"></script>
 </body>

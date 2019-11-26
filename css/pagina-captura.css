@@ -10,6 +10,12 @@
   z-index: 3000;
   color: #fff;
 }
+#captura.active{
+  display: block;
+  transition: all .5s ease-in-out;
+
+}
+
 #captura .fechar
 {
   position: absolute;

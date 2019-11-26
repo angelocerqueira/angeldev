@@ -1,11 +1,13 @@
 import initMenu from './menu-mobile.js';
 import initTab from './tabMenu.js';
 import initScrollSuave from './scrollSuave.js';
+import initCaptura from './modal-captura.js';
 
 
 initMenu();
 initTab();
 initScrollSuave();
+initCaptura();
 
 // (function () {
 //   var menu = document.getElementById('menu'); // colocar em cache

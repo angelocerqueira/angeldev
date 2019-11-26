@@ -515,7 +515,7 @@ max-width: 500px;
 }
 .portfolio .rollbar
 {
-  max-height: 700px;
+  max-height: 500px;
   max-width: 400px;
   overflow-y: scroll;
   border-radius: 20px 0 0 20px;
@@ -576,7 +576,20 @@ border-radius: 20px;
   top: -160px;
   transform: rotate(180deg);
   z-index: -1;
+}
 
+.tecno
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tecno li
+{
+  max-width: 100px;
+  margin: 90px 10px 0;
 }
 @media(max-width: 769px)
 {
@@ -684,7 +697,11 @@ border-radius: 20px;
 
 }
 
-
+.tecno li
+{
+  max-width: 60px;
+  margin: 50px 10px 0;
+}
 
 }
 /* ================================= */

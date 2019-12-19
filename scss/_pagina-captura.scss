@@ -1,0 +1,217 @@
+#captura
+{
+  display: none;
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 3000;
+  color: $white;
+}
+#captura.active{
+  display: block;
+  transition: all .5s ease-in-out;
+
+}
+
+#captura .fechar
+{
+  position: absolute;
+  top: 15%;
+  right: 10%; 
+}
+#captura .fechar button{
+  background: none;
+  border: $white solid;
+  border-radius: 5px;
+}
+#captura .fechar button:hover
+{
+  background: $white;
+  color: #533C86;
+}
+.captura
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $backgroundSecondaryColor;
+  max-width: 80%;
+  margin: 5% auto;
+  padding: 60px 40px;
+  border-radius: 30px;
+}
+#captura .titulo h1
+{
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+#captura .content
+{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+#captura .content .img-captura
+{
+flex: 40%;
+}
+#captura .content .text-action
+{
+flex: 60%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#captura .content .text-action h2
+{
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#captura .content .text-action h3
+{
+  font-size:1.2em;
+  font-weight: bold;
+}
+#captura .content .text-action form 
+{
+  display: flex;
+  padding: 20px 0; 
+}
+#captura .content .text-action form .input1 
+{
+border-radius: 10px 0 0 10px ;
+padding: 5px;
+border: 0;
+color: $black;
+outline: none;
+opacity: 0.5;
+transition: all .5s ease-in-out;
+}
+#captura .content .text-action form .input1:focus
+{
+  opacity: 1;
+}
+#captura .content .text-action form .input2
+{
+  border-radius: 0 10px 10px 0;
+  border: 0;
+  background: $black;
+  color: $white;
+  padding: 10px;
+}
+#captura p
+{
+font-size: .8em;
+}
+#captura .wpp-captura
+{
+  max-width: 50px;
+  margin-top: 20px;
+}
+
+@include device (tablet)
+{
+  #captura .fechar
+  {
+  top: 3%;
+  right: 16%; 
+  }
+  #captura .fechar button
+  {
+  font-size: .6em;
+  border: 0;
+  }
+  .captura
+  {
+  max-width: 60%;
+  margin: 5% auto;
+  padding: 50px 40px 20px;
+  border-radius: 30px;
+  }
+  #captura .titulo h1
+  {
+  font-size: 1.6em;
+  }
+  #captura .content
+  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+  justify-content: space-between;
+  }
+  #captura .content .img-captura
+  {
+  max-width: 200px;
+  }
+  #captura .content .text-action h2
+  {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+  #captura .content .text-action h3
+  {
+  font-size:.9em;
+  font-weight: bold;
+  }
+}
+
+@include device(mobile)
+{
+  #captura .titulo h1
+  {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+  #captura .fechar
+  {
+    top: 1%;
+    right: 12%;
+  }
+  #captura .content .text-action
+  {
+    text-align: center;
+  }
+  #captura .content .text-action h2
+  {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+  #captura .content .text-action h3
+  {
+    font-size:.9em;
+    font-weight: bold;
+
+  }
+  #captura .content .text-action form .input1 
+  {
+  border-radius: 10px 0 0 10px ;
+  padding: 2px;
+  max-width: 130px;
+  }
+  #captura .content .text-action form .input2
+  {
+    border-radius: 0 10px 10px 0;
+    border: 0;
+    background: $black;
+    color: $white;
+    padding: 5px;
+    font-size: .8em;
+
+
+  }
+}
